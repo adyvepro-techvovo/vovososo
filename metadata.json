@@ -1,0 +1,6 @@
+{
+  "name": "Kestrel Atelier — Kinetic Light & Spatial Architecture",
+  "description": "Interdisciplinary architecture and spatial sound practice in Zurich and Kyoto crafting kinetic light sculptures, acoustic installations, and monograph editions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
