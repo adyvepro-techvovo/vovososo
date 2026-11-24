@@ -1,3 +1,10 @@
+import heroKineticLightImg from '../assets/images/hero_kinetic_light_1795373797289.jpg';
+import workBasaltSoundImg from '../assets/images/work_basalt_sound_1795373797521.jpg';
+import workBorosilicatePrismImg from '../assets/images/work_borosilicate_prism_1795373797797.jpg';
+import workMonographBookImg from '../assets/images/work_monograph_book_1795373797081.jpg';
+import portraitDirectorOneImg from '../assets/images/portrait_director_one_1795373796759.jpg';
+import portraitDirectorTwoImg from '../assets/images/portrait_director_two_1795373797667.jpg';
+
 export type WorkCategory = 'all' | 'kinetic-light' | 'spatial-sound' | 'monographs';
 
 export interface AtelierWork {
@@ -56,7 +63,7 @@ export const ATELIER_WORKS: AtelierWork[] = [
     acousticProfile: 'Passive wind-driven micro-pendulum · 18 dBA floor',
     curator: 'Dr. Helena Vance',
     featured: true,
-    image: '/src/assets/images/hero_kinetic_light_1795373797289.jpg',
+    image: heroKineticLightImg,
     imageAlt: 'Suspended brushed brass and frosted glass kinetic sculpture casting geometric amber light beams across a concrete gallery wall',
     summary:
       'Commissioned for the main concrete nave of Zurich Kunsthalle, Heliostat VII tracks solar azimuth across twenty-eight balanced brass arms, translating afternoon daylight into slow architectural geometry.',
@@ -76,7 +83,7 @@ export const ATELIER_WORKS: AtelierWork[] = [
     acousticProfile: 'RT60 2.4s · Fundamental 110 Hz harmonic drone',
     curator: 'Kenjiro Takahashi',
     featured: false,
-    image: '/src/assets/images/work_basalt_sound_1795373797521.jpg',
+    image: workBasaltSoundImg,
     imageAlt: 'Minimalist Kyoto museum hall with matte dark basalt acoustic columns and warm floor-level lighting',
     summary:
       'An architectural listening sanctuary set beside a moss courtyard in northern Kyoto. Each split basalt pier conceals a low-frequency surface transducer tuned to the hall’s standing-wave ratio.',
@@ -96,7 +103,7 @@ export const ATELIER_WORKS: AtelierWork[] = [
     acousticProfile: 'Silent solid-state optical bench',
     curator: 'Matteo Bellini',
     featured: false,
-    image: '/src/assets/images/work_borosilicate_prism_1795373797797.jpg',
+    image: workBorosilicatePrismImg,
     imageAlt: 'Seven cylindrical borosilicate glass lenses mounted on a matte dark plinth refracting warm vermilion light shafts onto a plaster wall',
     summary:
       'Seven precision-ground borosilicate cylinders pivot in slow harmonic ratios, overlapping vermilion and amber caustics across lime-plaster gallery walls.',
@@ -116,7 +123,7 @@ export const ATELIER_WORKS: AtelierWork[] = [
     acousticProfile: 'Includes lossless field-recording archive code',
     curator: 'Kestrel Press',
     featured: false,
-    image: '/src/assets/images/work_monograph_book_1795373797081.jpg',
+    image: workMonographBookImg,
     imageAlt: 'Open Swiss-bound architectural hardcover monograph resting on pale limestone showing black and white concrete plates',
     summary:
       'Our third hardcover monograph documents twelve permanent spatial commissions across Europe and Japan, pairing architectural sections with impulse-response acoustic diagrams.',
@@ -181,7 +188,7 @@ export const PRINCIPALS: PrincipalProfile[] = [
     name: 'Naomi Shimizu',
     role: 'Co-Founder & Principal, Kinetic Optics',
     city: 'Kyoto',
-    portrait: '/src/assets/images/portrait_director_one_1795373796759.jpg',
+    portrait: portraitDirectorOneImg,
     portraitAlt: 'Portrait of Naomi Shimizu in a charcoal linen shirt against a warm plaster studio wall',
     education: 'M.Arch, Kyoto University · ETH Zurich Visiting Critic',
     bio: 'Naomi leads the atelier’s optical geometry and material fabrication studio in Kyoto. Her work investigates how unpowered brass counterweights, ground borosilicate glass, and daylight apertures reveal subtle atmospheric motion inside civic buildings.',
@@ -192,7 +199,7 @@ export const PRINCIPALS: PrincipalProfile[] = [
     name: 'Lukas Brenner',
     role: 'Co-Founder & Principal, Spatial Acoustics',
     city: 'Zurich',
-    portrait: '/src/assets/images/portrait_director_two_1795373797667.jpg',
+    portrait: portraitDirectorTwoImg,
     portraitAlt: 'Portrait of Lukas Brenner in dark merino knitwear against an off-white studio wall',
     education: 'Dipl. Arch ETH · Electroacoustic Composition, Basel',
     bio: 'Lukas directs architectural acoustics and harmonic instrument design from Zurich. Combining room-mode physics with stone and timber materiality, he builds permanent sound installations that respond organically to architectural occupancy.',
